@@ -1,0 +1,2207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="Pushy is an off-canvas navigation menu for your website.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="format-detection" content="telephone=no">
+
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="js/slick/slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="js/slick/slick/slick-theme.css"/>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> 
+
+       <!--  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+
+        <script src="js/index.js"></script> 
+
+        <script src="js/slick/slick/slick.js"></script> 
+        <script type="text/javascript" src="js/slick/slick/slick.min.js"></script>
+
+
+	</head>
+
+	<body class="outlook"> 
+		<header>
+			<div class="header">
+				<div class="header_menu header_item">
+					<a href="index.html" class="logo_main header_item">
+						<img src="img/logo_outlook__footer_1920.png">
+					</a>
+					<ul class="header_list_menu header_item list_head">
+						<li class="header_item"><a href="#">HOME</a></li>
+						<li class="header_item"><a href="#">API</a></li>
+						<li class="header_item"><a href="#">ACTIVITIES</a></li>
+						<li class="header_item"><a href="#">SEARCH</a></li>
+						<li class="header_item"><a href="#">WORLD</a></li>
+						<li class="header_item"><a href="#">HOLIDAY</a></li>
+					</ul>
+				</div>
+
+				<div class="header_left  header_item">
+					 <div class="language header_item" >
+						<div class="lang_chosen">
+								EN
+							<i class="ion-arrow-down-b"></i>
+						</div>
+						<div class="language-list">
+							<div class="check_lang">
+								<input type="radio" name="yy" value="11" id="first_lang_check" checked>
+								<label for="first_lang_check">English</label>
+							</div>
+							<div class="check_lang">
+								<input type="radio" name="yy" value="21" id="second_lang_check">
+								<label for="second_lang_check">English</label>
+							</div>
+							<div class="check_lang">
+								<input type="radio" name="yy" value="31" id="third_lang_check" >
+								<label for="third_lang_check">English</label>
+							</div>
+							<div class="check_lang">
+								<input type="radio" name="yy" value="41" id="fourth_lang_check" >
+								<label for="fourth_lang_check">English</label>
+							</div>
+							<div class="check_lang">
+								<input type="radio" name="yy" value="51" id="fifth_lang_check" >
+								<label for="fifth_lang_check">English</label>
+							</div>
+
+							<button>
+								update
+							</button>
+
+						</div>
+					</div>
+					<div class="logo_heart header_item" id="my_image">
+						<img src="img/heart_outlook.png">
+					</div>
+					
+					<form class="header_search header_item show_more_1366">
+						<input type="search" placeholder="Search">
+						<ul class="datalist_search">
+								<li>Днепр<i class="ion-close-round"></i></li>
+								<li>Кременчуг<i class="ion-close-round"></i></li>
+								<li>Харьков<i class="ion-close-round"></i></li>
+								<li>Ивано-Франковс<i class="ion-close-round"></i></li>
+								<li>Днепр<i class="ion-close-round"></i></li>
+								<li>Кременчуг<i class="ion-close-round"></i></li>
+								<li>Харьков<i class="ion-close-round"></i></li>
+						</ul>
+						<input type="submit" value="">
+						<img src="img/target.png" class="search_icon_header">
+					</form>
+
+					<div class="show_less_1366">
+						<form class="header_search header_item">
+							<input type="search" placeholder="Search">
+							<ul class="datalist_search">
+							    <li>Днепр<i class="ion-close-round"></i></li>
+								<li>Кременчуг<i class="ion-close-round"></i></li>
+								<li>Харьков<i class="ion-close-round"></i></li>
+								<li>Ивано-Франковс<i class="ion-close-round"></i></li>
+								<li>Днепр<i class="ion-close-round"></i></li>
+								<li>Кременчуг<i class="ion-close-round"></i></li>
+								<li>Харьков<i class="ion-close-round"></i></li>
+							</ul>
+							<input type="submit" value="">
+							<img src="img/target.png" class="search_icon_header">
+						</form>
+					</div>
+
+					<div class="header_sitting header_item">
+						<img src="img/gear.png">
+					</div>
+
+					<div class="header_menu_burger header_item">
+						<img src="img/burger_header.png">
+					</div>
+
+					
+				</div>
+			</div>
+
+			<!--        HIDDEN BLOCKS IN HEADER       -->
+			<div class="hidde_heart_table">
+				<ul class="hidde_heart_list">
+					<li class="heart_list">
+						<span class="heart_hidden_menu_city">Manchester</span>
+						<span class="heart_img_weather"><img src="img/thunderstorm.png"></span>
+						<span class="heart_list_img_weather">
+							<div class="info">
+								Light Snow
+							</div>
+							<div class="head_heart_temp">
+								-10°C
+							</div>	
+						</span>	
+					</li>
+					<li class="heart_list">
+						<span class="heart_hidden_menu_city">Manchester</span>
+						<span class="heart_img_weather"><img src="img/thunderstorm.png"></span>
+						<span class="heart_list_img_weather">
+							<div class="info">
+								Light Snow
+							</div>
+							<div class="head_heart_temp">
+								-10°C
+							</div>	
+						</span>	
+					</li>
+					<li class="heart_list">
+						<span class="heart_hidden_menu_city">Manchester</span>
+						<span class="heart_img_weather"><img src="img/thunderstorm.png"></span>
+						<span class="heart_list_img_weather">
+							<div class="info">
+								Light Snow
+							</div>
+							<div class="head_heart_temp">
+								-10°C
+							</div>	
+						</span>	
+					</li>
+					<li class="heart_list">
+						<span class="heart_hidden_menu_city">Manchester</span>
+						<span class="heart_img_weather"><img src="img/thunderstorm.png"></span>
+						<span class="heart_list_img_weather">
+							<div class="info">
+								Light Snow
+							</div>
+							<div class="head_heart_temp">
+								-10°C
+							</div>	
+						</span>	
+					</li>
+					<li class="heart_list">
+						<span class="heart_hidden_menu_city">Manchester</span>
+						<span class="heart_img_weather"><img src="img/thunderstorm.png"></span>
+						<span class="heart_list_img_weather">
+							<div class="info">
+								Light Snow
+							</div>
+							<div class="head_heart_temp">
+								-10°C
+							</div>	
+						</span>	
+					</li>
+					<li class="heart_list">
+						<span class="heart_hidden_menu_city">Manchester</span>
+						<span class="heart_img_weather"><img src="img/thunderstorm.png"></span>
+						<span class="heart_list_img_weather">
+							<div class="info">
+								Light Snow
+							</div>
+							<div class="head_heart_temp">
+								-10°C
+							</div>	
+						</span>	
+					</li>
+					<li class="heart_list">
+						<span class="heart_hidden_menu_city">Manchester</span>
+						<span class="heart_img_weather"><img src="img/thunderstorm.png"></span>
+						<span class="heart_list_img_weather">
+							<div class="info">
+								Light Snow
+							</div>
+							<div class="head_heart_temp">
+								-10°C
+							</div>	
+						</span>	
+					</li>
+					<li class="heart_list">
+						<span class="heart_hidden_menu_city">Manchester</span>
+						<span class="heart_img_weather"><img src="img/thunderstorm.png"></span>
+						<span class="heart_list_img_weather">
+							<div class="info">
+								Light Snow
+							</div>
+							<div class="head_heart_temp">
+								-10°C
+							</div>	
+						</span>	
+					</li>
+				</ul>
+			</div>
+
+			<div class="setting_hidde_block">
+				<div class="right_part">
+					<div class="title">
+						Change Weather Units
+					</div>
+
+					<div class="item_setting_hidde first">
+						<div class="item_setting_hidde_text">
+							Temperature
+						</div>
+						<div class="item_setting_hidde_inputs">
+							<div>
+								<input type="radio" name="mycheck" value="1" id="first_check" checked>
+								<label for="first_check">Celsius (°C)</label>
+							</div>
+							<div>
+								<input type="radio" name="mycheck" value="2" id="sec_check">
+								<label for="sec_check">Fahrenheit (°F) </label>
+							</div>
+						</div>
+					</div>
+
+					<div class="item_setting_hidde">
+						<div class="item_setting_hidde_text">
+							Rain
+						</div>
+						<div class="item_setting_hidde_inputs">
+							<div>
+								<input type="radio" name="mycheck1" value="1" id="3_check" checked>
+								<label for="3_check">Millimeters (mm)</label>
+							</div>
+							<div>
+								<input type="radio" name="mycheck1" value="2" id="4_check">
+								<label for="4_check">Inches (In)</label>
+							</div>
+						</div>
+					</div>
+
+					<div class="item_setting_hidde">
+						<div class="item_setting_hidde_text">
+							Wind Speed
+						</div>
+						<div class="item_setting_hidde_inputs">
+							<div>
+								<input type="radio" name="mycheck3" value="1" id="5_check" checked>
+								<label for="5_check">Miles per Hour (mph)</label>
+							</div>
+							<div>
+								<input type="radio" name="mycheck3" value="2" id="6_check">
+								<label for="6_check">Kilometres per Hour (Kph)</label>
+							</div>
+							<div>
+								<input type="radio" name="mycheck3" value="2" id="7_check">
+								<label for="7_check">Knots (Kt)</label>
+							</div>
+							<div>
+								<input type="radio" name="mycheck3" value="2" id="8_check">
+								<label for="8_check">Beaufort Wind Scale</label>
+							</div>
+							<div>
+								<input type="radio" name="mycheck3" value="2" id="9_check">
+								<label for="9_check">Metres per second (m/s) </label>
+							</div>
+						</div>
+					</div>
+
+					<div class="item_setting_hidde">
+						<div class="item_setting_hidde_text">
+							Pressure
+						</div>
+						<div class="item_setting_hidde_inputs">
+							<div>
+								<input type="radio" name="mycheck4" value="1" id="10_check" checked>
+								<label for="10_check">Millibars (mb)</label>
+							</div>
+							<div>
+								<input type="radio" name="mycheck4" value="2" id="11_check">
+								<label for="11_check">Inches (In)</label>
+							</div>
+						</div>
+					</div>
+
+					<div class="item_setting_hidde">
+						<div class="item_setting_hidde_text">
+							Visibility
+						</div>
+						<div class="item_setting_hidde_inputs">
+							<div>
+								<input type="radio" name="mycheck5" value="1" id="12_check" checked>
+								<label for="12_check">Kilometer (km)</label>
+							</div>
+							<div>
+								<input type="radio" name="mycheck5" value="2" id="13_check">
+								<label for="13_check">Miles (mi)</label>
+							</div>
+						</div>
+					</div>
+
+					<div class="item_setting_hidde">
+						<div class="item_setting_hidde_text">
+							Height
+						</div>
+						<div class="item_setting_hidde_inputs">
+							<div>
+								<input type="radio" name="mycheck6" value="1" id="14_check" checked>
+								<label for="14_check">Metres (m)</label>
+							</div>
+							<div>
+								<input type="radio" name="mycheck6" value="2" id="16_check">
+								<label for="16_check">Feet (Ft)</label>
+							</div>
+						</div>
+					</div>
+
+					<div class="item_setting_hidde">
+						<div class="item_setting_hidde_text">
+							Time
+						</div>
+						<div class="item_setting_hidde_inputs">
+							<div>
+								<input type="radio" name="mycheck7" value="1" id="17_check" checked>
+								<label for="17_check">12h</label>
+							</div>
+							<div>
+								<input type="radio" name="mycheck7" value="2" id="18_check">
+								<label for="18_check">14h</label>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="left_part">
+					<button>
+						Update
+					</button>
+				</div>
+			</div>
+
+			<div class="heder_menu_hidden">
+				<ul class="header_menu_second">
+					<li class="header_item"><a href="#">HOME</a></li>
+					<li class="header_item"><a href="#">API</a></li>
+					<li class="header_item"><a href="#">ACTIVITIES</a></li>
+					<li class="header_item"><a href="#">SEARCH</a></li>
+					<li class="header_item"><a href="#">WORLD</a></li>
+					<li class="header_item"><a href="#">HOLIDAY</a></li>
+				</ul>
+				<div class="heder_menu_hidden_title">
+					API
+				</div>
+				<ul class="list_heder_menu_hidden first">
+					<li><a href="#">OVERVIEW</a></li>
+					<li><a href="#">COMPARE</a></li>
+					<li><a href="#">PRICING</a></li>
+					<li><a href="#">LOCAL WEATHER API</a></li>
+					<li><a href="#">PAST WEATHER API</a></li>
+					<li><a href="#">MARINE WEATHER API</a></li>
+					<li><a href="#">SKI WEATHER API</a></li>
+					<li><a href="#">SEARCH API</a></li>
+					<li><a href="#">TIME ZONE API</a></li>
+				</ul>
+				<ul class="list_heder_menu_hidden second">
+					<li><a href="#">Outlook</a></li>
+					<li><a href="#">Today</a></li>
+					<li><a href="#">Tomorrow</a></li>
+					<li><a href="#">Sat</a></li>
+					<li><a href="#">Sun</a></li>
+                    <li><a href="#">Mon</a></li>
+                    <li><a href="#">Tue</a></li>
+                    <li><a href="#">Wed</a></li>
+				</ul>
+				<ul class="list_heder_menu_hidden">
+					<li><a href="#">1 to 15 Days</a></li>
+					<li><a href="#">History</a></li>
+					<li><a href="#">Chart</a></li>
+					<li><a href="#">Text</a></li>
+					<li><a href="#">Averages</a></li>
+					<li><a href="#">Widget</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<section class="first_banner">
+			<div class="container">
+				<div class="first_banner_block">
+					<div class="weather_top_map">
+						<div class="latest_weather_report_item1">
+							<div class="item1">
+								Latest weather report at 
+							</div>
+							<div class="item2">
+								<button>Minsk<i class="ion-arrow-down-b"></i></button>
+								<ul class="latest_weather_report_item2_list">
+									<li>Moscow</li>
+									<li>Kyiv</li>
+									<li>London</li>
+									<li>Mayami</li>
+									<li>New York</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="latest_weather_report_item2">
+							<div class="weather_top_map_item1">
+								<div class="map_img_weather_item1">
+									<img src="img/icon-light-snow_2.png">
+								</div>
+								<div class="map_list_img_weather_item2">
+									<div class="item1">
+										Light Snow
+									</div>
+									<div class="item2">
+										-10°C
+									</div>	
+								</div>	
+							</div>
+
+							<div class="weather_top_map_item2">
+								<div class="it1">
+									<div class="item1">
+										Sunrise:
+									</div>
+									<div class="item2">
+										04:13 AM
+									</div>
+								</div>
+								<div class="it1">
+									<div class="item3">
+										Sunset:
+									</div>
+									<div class="item4">
+										12:51 PM
+									</div>
+								</div>
+							</div>
+
+							<div class="weather_top_map_item3">
+								<div class="item1">
+									Wind:  7 mph from NW
+								</div>
+								<div class="title2">
+									Humidity:  93%
+								</div>
+								<div class="title3">
+									Pressure:  1017 mb
+								</div>
+								<div class="title4">
+									Cloud Cover: 100%
+								</div>
+								<div class="title5">
+									Visibility:  10 km
+								</div>
+							</div>
+
+							<div class="weather_top_map_item4">
+								<div class="item1">
+									P.O.P:  98%
+								</div>
+								<div class="item2">
+									Moonrise:
+								</div>
+								<div class="item3">
+									04:13 AM
+								</div>
+								<div class="item4">
+									Moonset:
+								</div>
+								<div class="item5">
+									12:51 PM
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="weather_top_map_second">
+						<div class="it1">Minsk,</div>
+						<div class="it2">Minsk Weather Charts, Belarus</div>
+						<div class="it3">Local Time: Thu 23rd Mar 1:40 pm</div>
+						<div class="it4">(Not the location you were looking for? </div>
+						<div class="it5"><a href="#">Other matching results or Interactive Map Search)</a></div>
+						<div class="it6">HOME > World Weather > Belarus flagBelarus > Minsk > Minsk</div>
+					</div>
+				</div>
+
+				<div class="list_week">
+					<ul class="list_evr_day">
+						<li class="outl"><a href="#">OUTLOOK</a></li>
+						<li class="other">OTHER<i class="ion-arrow-down-b"></i></li>
+						<li><a href="#">today</a></li>
+						<li><a href="#">tomorrow</a></li>
+						<li><a href="#">FRI</a></li>
+						<li><a href="#">SAT</a></li>
+						<li><a href="#">SUN</a></li>
+						<li><a href="#">MON</a></li>
+						<li><a href="#">TUE</a></li>
+						<li><a href="#">1 TO 15 DAYS</a></li>
+						<li><a href="#">HISTORY</a></li>
+						<li><a href="#">TEXT</a></li>
+						<li><a href="#">CHART</a></li>
+						<li><a href="#">AVERAGE</a></li>
+						<li><a href="#">WIDGET</a></li>
+					</ul>
+					<div class="list_week_chosen">
+						5 Day Weather Forecast
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="outlook_weather_forecast">
+			<div class="container">
+				<div class="right_w_f">
+					<ul class="rightitem1">
+						<li class="fir">
+							<img src="img/icon-light-snow_2.png">
+							<div class="text_title">Light Snow</div>
+						</li>
+						<li class="sec">
+							<span class="max">Max</span>: 10°c
+							<div class="min">Min: 2°c</div>
+						</li>
+						<li class="third">
+							<div>Rain:    <span class="time">0.00 mm</span></div>
+							<div>Sunrise: <span class="time">07:05 AM</span></div>
+							<div>Sunset:  <span class="time">07:29 PM</span></div>
+						</li>
+					</ul>
+
+					<ul class="rightitem2">
+						<li><button class="active">TODAY</button></li>
+						<li><button class="act_next">THU</button></li>
+						<li><button>FRI</button></li>
+						<li><button>SAT</button></li>
+						<li><button>SUN</button></li>
+					</ul>
+					<ul class="rightitem3">
+						<li class="text1"><a href="#">Weather Charts</a></li>
+						<li class="text2"><a href="#">Hour by hour </a></li>
+						<li class="text3"><a href="#">3 Hourly interval</a></li>
+						<li class="text4"><a href="#">Historical Weather</a>  </li>
+						<li class="text5"><a href="#">Text Weather</a></li>
+					</ul>
+				</div>
+
+				<div class="middle_w_f">
+					<ul class="phase_day">
+						<li>
+							<div class="phase_day_title">
+								Morning
+							</div>
+							<img src="img/icon-light-snow_2.png">
+							<div class="phase_day_down_text">
+								Light Snow
+							</div>
+						</li>
+						<li>
+							<div class="phase_day_title">
+								Afternoon
+							</div>
+							<img src="img/icon-light-snow_2.png">
+							<div class="phase_day_down_text">
+								Light Snow
+							</div>
+						</li>
+						<li>
+							<div class="phase_day_title">
+								Evening
+							</div>
+							<img src="img/icon-light-snow_2.png">
+							<div class="phase_day_down_text">
+								Light Snow
+							</div>
+						</li>
+						<li>
+							<div class="phase_day_title">
+								Night
+							</div>
+							<img src="img/icon-light-snow_2.png">
+							<div class="phase_day_down_text">
+								Light Snow
+							</div>
+						</li>
+					</ul>
+
+					<ul class="mid_list1">
+						<li class="mid_li_1">
+							<img src="img/svg/temp.svg">
+							<span class="descr">
+								Temperature
+							</span>
+							<ul class="temperature">
+								<li class="morning">
+									1 ºC
+								</li>
+								<li class="afternoon">
+									1 ºC
+								</li>
+								<li class="evening">
+									1 ºC
+								</li>
+								<li class="night">
+									1 ºC
+								</li>
+							</ul>
+						</li>
+						<li class="mid_li_2">
+							<img src="img/svg\feels like.svg">
+							<span class="descr">
+								Feels Like
+							</span>
+							<ul class="feels-like">
+								<li class="morning">
+									1 ºC
+								</li>
+								<li class="afternoon">
+									1 ºC
+								</li>
+								<li class="evening">
+									1 ºC
+								</li>
+								<li class="night">
+									1 ºC
+								</li>
+							</ul>
+						</li>
+						<li class="mid_li_3">
+							<img src="img/svg/precip.svg">
+							<span class="descr">
+								Precip
+							</span>
+							<ul class="precip">
+								<li class="morning">
+									0.0
+									<div class="mm">mm</div>
+								</li>
+								<li class="afternoon">
+									0.0
+									<div class="mm">mm</div>
+								</li>
+								<li class="evening">
+									0.0
+									<div class="mm">mm</div>
+								</li>
+								<li class="night">
+									0.0
+									<div class="mm">mm</div>
+								</li>
+							</ul>
+						</li>
+
+							<div class="see_more"><span class="see">SEE MORE</span><span class="closss">CLOSE</span><i class="ion-chevron-down ic_1"></i> <i class="ion-chevron-down ic_2"></i></div>
+
+						<li class="mid_li_4">
+							<img src="img/svg/wind.svg">
+							<span class="descr">
+								Wind
+							</span>
+							<ul class="wind">
+								<li class="morning">
+									5
+									<div class="mph">mph</div>
+									<div class="nv">NV</div>
+								</li>
+								<li class="afternoon">
+									5
+									<div class="mph">mph</div>
+									<div class="nv">NV</div>
+								</li>
+								<li class="evening">
+									5
+									<div class="mph">mph</div>
+									<div class="nv">NV</div>
+								</li>
+								<li class="night">
+									5
+									<div class="mph">mph</div>
+									<div class="nv">NV</div>
+								</li>
+							</ul>
+						</li>
+						<li class="mid_li_5">
+							<img src="img/svg/gust.svg">
+							<span class="descr">
+								Gust
+							</span>
+							<ul class="gust">
+								<li class="morning">
+									5
+									<div class="mph">mph</div>
+								</li>
+								<li class="afternoon">
+									5
+									<div class="mph">mph</div>
+								</li>
+								<li class="evening">
+									5
+									<div class="mph">mph</div>
+								</li>
+								<li class="night">
+									5
+									<div class="mph">mph</div>
+								</li>
+							</ul>
+						</li>
+						<li class="mid_li_6">
+							<img src="img/svg/humidity.svg">
+							<span class="descr">
+								Humidity
+							</span>
+							<ul class="humidity">
+								<li class="morning">
+									87%
+								</li>
+								<li class="afternoon">
+									87%
+								</li>
+								<li class="evening">
+									87%
+								</li>
+								<li class="night">
+									87%
+								</li>
+							</ul>
+						</li>
+						<li class="mid_li_7">
+							<img src="img/svg/rain.svg">
+							<span class="descr">
+								Rain(%)
+							</span>
+							<ul class="rain">
+								<li class="morning">
+									87%
+								</li>
+								<li class="afternoon">
+									87%
+								</li>
+								<li class="evening">
+									87%
+								</li>
+								<li class="night">
+									87%
+								</li>
+							</ul>
+						</li>
+						<li class="mid_li_8">
+							<img src="img/cloud.png">
+							<span class="descr">
+								Cloud(%)
+							</span>
+							<ul class="cloud">
+								<li class="morning">
+									87%
+								</li>
+								<li class="afternoon">
+									87%
+								</li>
+								<li class="evening">
+									87%
+								</li>
+								<li class="night">
+									87%
+								</li>
+							</ul>
+						</li>
+						<li class="mid_li_9">
+							<img src="img/svg/visibility.svg">
+							<span class="descr">
+								Visibility
+							</span>
+							<ul class="visibility">
+								<li class="morning">
+									20.0 
+									<div class="km">km</div>
+								</li>
+								<li class="afternoon">
+									20.0 
+									<div class="km">km</div>
+								</li>
+								<li class="evening">
+									20.0
+									<div class="km">km</div>
+								</li>
+								<li class="night">
+									20.0
+									<div class="km">km</div>
+								</li>
+							</ul>
+						</li>
+						<li class="mid_li_10">
+							<img src="img/svg/pressure.svg">
+							<span class="descr">
+								Pressure
+							</span>
+							<ul class="pressure">
+								<li class="morning">
+									1025
+									<div class="mb">mb</div>
+								</li>
+								<li class="afternoon">
+									1025
+									<div class="mb">mb</div>
+								</li>
+								<li class="evening">
+									1025
+									<div class="mb">mb</div>
+								</li>
+								<li class="night">
+									1025
+									<div class="mb">mb</div>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+				<div class="left_w_f">
+					<div class="left_item1">
+						<div class="lefititem1_title">
+							UV index
+						</div>
+						<div class="lef_it2">
+							<ul>
+								<li>
+									<div class="color1">
+									</div>
+									1
+								</li>
+								<li>
+									<div class="color2">
+									</div>
+									2
+								</li>
+								<li>
+									<div class="color3">
+									</div>
+									3
+								</li>
+								<li>
+									<div class="color4">
+									</div>
+									4
+								</li>
+								<li>
+									<div class="color5">
+									</div>
+									5
+								</li>
+								<li>
+									<div class="color6">
+									</div>
+									6
+								</li>
+								<li>
+									<div class="color7">
+									</div>
+									7
+								</li>
+								<li>
+									<div class="color8">
+									</div>
+									8
+								</li>
+								<li>
+									<div class="color9">
+									</div>
+									9
+								</li>
+								<li>
+									<div class="color10">
+									</div>
+									10
+								</li>
+								<li>
+									<div class="color11">
+									</div>
+									11
+								</li>
+							</ul>
+						</div>
+						<div class="lef_it3">
+							<ul class="lef_it3_list">
+								<li>
+									TODAY<div>23/03</div>
+									<div class="it3_col1 it_col">
+										2
+									</div>
+								</li>
+								<li>
+									THU<div>24/03</div>
+									<div class="it3_col2 it_col">
+										2
+									</div>
+								</li>
+								<li>
+									FRI<div>25/03</div>
+									<div class="it3_col3 it_col">
+										2
+									</div>
+								</li>
+								<li>
+									SAT<div>26/03</div>
+									<div class="it3_col4 it_col">
+										2
+									</div>
+								</li>
+								<li>
+									SUN<div>27/03</div>
+									<div class="it3_col5 it_col">
+										2
+									</div>
+								</li>							
+							</ul>
+						</div>
+					</div>
+					<div class="left_item2 advertising">
+						<img src="">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="outlook_map">
+			<div class="container">
+				<div class="advertising">
+					555
+				</div>
+				<div class="map">
+					<iframe width="100%" height="250px" frameborder="0" scrolling="no" marginheight="0" id="background" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-85.01220703125%2C41.335575973123916%2C-72.75146484375001%2C46.14939437647686&amp;layer=mapnik">
+					</iframe>
+
+					<div class="temper">
+						<div class="item1">
+							-30°C
+						</div>
+						<div class="item2">
+							30°C
+						</div>
+						<div class="item3">
+							-9°C
+						</div>
+						<div class="item4">
+							15°C
+						</div>
+					</div>
+					<img src="img/logo_map.png" class="logo_map_outlook">
+				</div>
+			</div>
+		</section>
+
+		<section class="ten_days">
+			<div class="container">
+				<div class="ten_days_title">10 Day Weather Forecast</div>
+				<div class="middle_w_f">
+					<ul class="phase_day">
+						<li>
+							<div class="phase_day_title">
+								<span class="tue_first_d_week">Tuesday</span> <span class="ten_d_week">TUE</span>
+								<br>Mar 28th
+							</div>
+							<img src="img/icon-light-snow_2.png">
+							<div class="phase_day_down_text">
+								Light Snow
+							</div>
+						</li>
+						<li>
+							<div class="phase_day_title">
+								<span class="tue_first_d_week">Wednesday</span> <span class="ten_d_week">WED</span>
+								<br>Mar 29th
+							</div>
+							<img src="img/icon-light-snow_2.png">
+							<div class="phase_day_down_text">
+								Light Snow
+							</div>
+						</li>
+						<li>
+							<div class="phase_day_title">
+								<span class="tue_first_d_week">Thursday</span> <span class="ten_d_week">THU</span>
+								<br>Mar 30th
+							</div>
+							<img src="img/icon-light-snow_2.png">
+							<div class="phase_day_down_text">
+								Light Snow
+							</div>
+						</li>
+						<li>
+							<div class="phase_day_title">
+								<span class="tue_first_d_week">Friday</span> <span class="ten_d_week">FRI</span>
+								<br>Mar 31st
+							</div>
+							<img src="img/icon-light-snow_2.png">
+							<div class="phase_day_down_text">
+								Light Snow
+							</div>
+						</li>
+						<li>
+							<div class="phase_day_title">
+								<span class="tue_first_d_week">Saturday</span> <span class="ten_d_week">SAT</span>
+								<br>Apr 01st
+							</div>
+							<img src="img/icon-light-snow_2.png">
+							<div class="phase_day_down_text">
+								Light Snow
+							</div>
+						</li>
+						<li>
+							<div class="phase_day_title">
+								<span class="tue_first_d_week">Sunday</span> <span class="ten_d_week">SUN</span>
+								<br>Apr 02nd
+							</div>
+							<img src="img/icon-light-snow_2.png">
+							<div class="phase_day_down_text">
+								Light Snow
+							</div>
+						</li>
+						<li>
+							<div class="phase_day_title">
+								<span class="tue_first_d_week">Monday</span> <span class="ten_d_week">MON</span>
+								<br>Apr 03rd
+							</div>
+							<img src="img/icon-light-snow_2.png">
+							<div class="phase_day_down_text">
+								Light Snow
+							</div>
+						</li>
+						<li>
+							<div class="phase_day_title">
+								<span class="tue_first_d_week">Tuesday</span> <span class="ten_d_week">TUE</span>
+								<br>Apr 04th
+							</div>
+							<img src="img/icon-light-snow_2.png">
+							<div class="phase_day_down_text">
+								Light Snow
+							</div>
+						</li>
+						<li>
+							<div class="phase_day_title">
+								<span class="tue_first_d_week">Wednesday</span> <span class="ten_d_week">WED</span>
+								<br>Apr 05th
+							</div>
+							<img src="img/icon-light-snow_2.png">
+							<div class="phase_day_down_text">
+								Light Snow
+							</div>
+						</li>
+						<li>
+							<div class="phase_day_title">
+								<span class="tue_first_d_week">Thursday</span> <span class="ten_d_week">THU</span>
+								<br>Apr 06th
+							</div>
+							<img src="img/icon-light-snow_2.png">
+							<div class="phase_day_down_text">
+								Light Snow
+							</div>
+						</li>
+					</ul>
+
+					<ul class="mid_list1">
+						<li>
+							<img src="img/svg/rain.svg">
+							<span class="descr">
+								Rain(%)
+							</span>
+							<ul class="rain">
+								<li class="morning">
+									87%
+								</li>
+								<li class="afternoon">
+									87%
+								</li>
+								<li class="evening">
+									87%
+								</li>
+								<li class="night">
+									87%
+								</li>
+								<li class="morning">
+									87%
+								</li>
+								<li class="afternoon">
+									87%
+								</li>
+								<li class="evening">
+									87%
+								</li>
+								<li class="night">
+									87%
+								</li>
+								<li class="morning">
+									87%
+								</li>
+								<li class="afternoon">
+									87%
+								</li>
+							</ul>
+						</li>
+
+
+						<li>
+							<img src="img/svg/temp.svg">
+							<span class="descr">
+								Max
+							</span>
+							<ul class="tabl_max">
+								<li class="morning">
+									1 ºC
+								</li>
+								<li class="afternoon">
+									1 ºC
+								</li>
+								<li class="evening">
+									1 ºC
+								</li>
+								<li class="night">
+									1 ºC
+								</li>
+								<li class="morning">
+									1 ºC
+								</li>
+								<li class="afternoon">
+									1 ºC
+								</li>
+								<li class="evening">
+									1 ºC
+								</li>
+								<li class="night">
+									1 ºC
+								</li>
+								<li class="morning">
+									1 ºC
+								</li>
+								<li class="afternoon">
+									1 ºC
+								</li>
+							</ul>
+						</li>
+						<li>
+							<img src="img/svg/min temp.svg">
+							<span class="descr">
+								Min
+							</span>
+							<ul class="tabl_min">
+								<li class="morning">
+									1 ºC
+								</li>
+								<li class="afternoon">
+									1 ºC
+								</li>
+								<li class="evening">
+									1 ºC
+								</li>
+								<li class="night">
+									1 ºC
+								</li>
+								<li class="morning">
+									1 ºC
+								</li>
+								<li class="afternoon">
+									1 ºC
+								</li>
+								<li class="evening">
+									1 ºC
+								</li>
+								<li class="night">
+									1 ºC
+								</li>
+								<li class="morning">
+									1 ºC
+								</li>
+								<li class="afternoon">
+									1 ºC
+								</li>
+							</ul>
+						</li>
+						
+						<li>
+							<img src="img/svg/wind.svg">
+							<span class="descr">
+								Wind
+							</span>
+							<ul class="wind">
+								<li class="morning">
+									5
+									<div class="mph">mph</div>
+									<div class="nv">NV</div>
+								</li>
+								<li class="afternoon">
+									5
+									<div class="mph">mph</div>
+									<div class="nv">NV</div>
+								</li>
+								<li class="evening">
+									5
+									<div class="mph">mph</div>
+									<div class="nv">NV</div>
+								</li>
+								<li class="night">
+									5
+									<div class="mph">mph</div>
+									<div class="nv">NV</div>
+								</li>
+								<li class="morning">
+									5
+									<div class="mph">mph</div>
+									<div class="nv">NV</div>
+								</li>
+								<li class="afternoon">
+									5
+									<div class="mph">mph</div>
+									<div class="nv">NV</div>
+								</li>
+								<li class="evening">
+									5
+									<div class="mph">mph</div>
+									<div class="nv">NV</div>
+								</li>
+								<li class="night">
+									5
+									<div class="mph">mph</div>
+									<div class="nv">NV</div>
+								</li>
+								<li class="morning">
+									5
+									<div class="mph">mph</div>
+									<div class="nv">NV</div>
+								</li>
+								<li class="afternoon">
+									5
+									<div class="mph">mph</div>
+									<div class="nv">NV</div>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<img src="img/svg/visibility.svg">
+							<span class="descr">
+								Visibility
+							</span>
+							<ul class="visibility">
+								<li class="morning">
+									20.0 
+									<div class="km">km</div>
+								</li>
+								<li class="afternoon">
+									20.0 
+									<div class="km">km</div>
+								</li>
+								<li class="evening">
+									20.0
+									<div class="km">km</div>
+								</li>
+								<li class="night">
+									20.0
+									<div class="km">km</div>
+								</li>
+								<li class="morning">
+									20.0 
+									<div class="km">km</div>
+								</li>
+								<li class="afternoon">
+									20.0 
+									<div class="km">km</div>
+								</li>
+								<li class="evening">
+									20.0
+									<div class="km">km</div>
+								</li>
+								<li class="night">
+									20.0
+									<div class="km">km</div>
+								</li>
+								<li class="morning">
+									20.0 
+									<div class="km">km</div>
+								</li>
+								<li class="afternoon">
+									20.0 
+									<div class="km">km</div>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<img src="img/cloud.png">
+							<span class="descr">
+								Cloud(%)
+							</span>
+							<ul class="cloud">
+								<li class="morning">
+									87%
+								</li>
+								<li class="afternoon">
+									87%
+								</li>
+								<li class="evening">
+									87%
+								</li>
+								<li class="night">
+									87%
+								</li>
+								<li class="morning">
+									87%
+								</li>
+								<li class="afternoon">
+									87%
+								</li>
+								<li class="evening">
+									87%
+								</li>
+								<li class="night">
+									87%
+								</li>
+								<li class="morning">
+									87%
+								</li>
+								<li class="afternoon">
+									87%
+								</li>
+							</ul>
+						</li>
+						<li>
+							<img src="img/svg/precip.svg">
+							<span class="descr">
+								24 hr Precip
+							</span>
+							<ul class="precip">
+								<li class="morning">
+									0.0
+									<div class="mm">mm</div>
+								</li>
+								<li class="afternoon">
+									0.0
+									<div class="mm">mm</div>
+								</li>
+								<li class="evening">
+									0.0
+									<div class="mm">mm</div>
+								</li>
+								<li class="night">
+									0.0
+									<div class="mm">mm</div>
+								</li>
+								<li class="morning">
+									0.0
+									<div class="mm">mm</div>
+								</li>
+								<li class="afternoon">
+									0.0
+									<div class="mm">mm</div>
+								</li>
+								<li class="evening">
+									0.0
+									<div class="mm">mm</div>
+								</li>
+								<li class="night">
+									0.0
+									<div class="mm">mm</div>
+								</li>
+								<li class="morning">
+									0.0
+									<div class="mm">mm</div>
+								</li>
+								<li class="afternoon">
+									0.0
+									<div class="mm">mm</div>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<img src="img/svg/sunrise.svg">
+							<span class="descr">
+								Sunrise
+							</span>
+							<ul class="sunrise">
+								<li class="morning">
+									5
+									<div class="mph">mph</div>
+								</li>
+								<li class="afternoon">
+									5
+									<div class="mph">mph</div>
+								</li>
+								<li class="evening">
+									5
+									<div class="mph">mph</div>
+								</li>
+								<li class="night">
+									5
+									<div class="mph">mph</div>
+								</li>
+								<li class="morning">
+									5
+									<div class="mph">mph</div>
+								</li>
+								<li class="afternoon">
+									5
+									<div class="mph">mph</div>
+								</li>
+								<li class="evening">
+									5
+									<div class="mph">mph</div>
+								</li>
+								<li class="night">
+									5
+									<div class="mph">mph</div>
+								</li>
+								<li class="morning">
+									5
+									<div class="mph">mph</div>
+								</li>
+								<li class="afternoon">
+									5
+									<div class="mph">mph</div>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<img src="img/svg/sunset.svg">
+							<span class="descr">
+								Sunset
+							</span>
+							<ul class="sunset">
+								<li class="morning">
+									87%
+								</li>
+								<li class="afternoon">
+									87%
+								</li>
+								<li class="evening">
+									87%
+								</li>
+								<li class="night">
+									87%
+								</li>
+								<li class="morning">
+									87%
+								</li>
+								<li class="afternoon">
+									87%
+								</li>
+								<li class="evening">
+									87%
+								</li>
+								<li class="night">
+									87%
+								</li>
+								<li class="morning">
+									87%
+								</li>
+								<li class="afternoon">
+									87%
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<div class="next_5"><i class="ion-chevron-right"></i>N<br>E<br>X<br>T <br>5 <br>D<br>A<br>Y<br>S</div>
+				</div>
+
+				<div class="right_part_ten">
+					<div class="right_part_ten_title">
+						<a href="#">14 Day  Weather  Forecast >></a>
+					</div>
+					<div class="advertising">
+							<img src="">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="yearly_monthly">
+			<div class="container">
+				<div class="yearly_monthly_block"></div>
+				<div class="title">
+					Minsk, Belarus 
+					<div class="title1">Yearly Monthly Weather Averages</div>
+				</div>
+				<div class="left">
+					<div class="tiny_text">WorldWeatherOnline.com</div>
+					<div class="header_left">
+						<div class="block">
+						Minsk, Belarus
+						<div class="max_min">Max, Min and Average Temperature (°C)</div> 
+						</div>
+						<ul class="zoom">
+							<li>Zoom</li>
+							<li><a href="">1m</a></li>
+							<li><a href="">3m</a> </li> 
+							<li><a href="">6m</a></li>
+							<li><a href="">YTD</a> </li>
+							<li><a href="">1y</a></li>
+							<li><a href="">All</a></li>
+						</ul>
+						<div class="close">
+							<div class="cl_icon">
+								<i class="ion-navicon-round"></i>
+							</div>
+							<ul class="print">
+								<li>Print cahrt</li>
+								<li>Download PNG</li>
+								<li>Download IMG</li>
+								<li>Download PDF</li>
+								<li>Download SVG</li>
+							</ul>
+						</div>
+					</div>
+					<div class="left_img">
+						<img src="img/img@2x.png">
+					</div>
+
+					<div class="bottom_left">
+						<ul>
+							<li>Max Temp (°C)</li>
+							<li>Min Temp (°C)</li>
+							<li>Avg Temp (°C)</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="block_right">
+					<div class="advertising_right">
+					</div>
+
+					<div class="right">
+						<ul class="right_list_yearly_monthly">
+							<li><a href="#">Video</a></li>
+							<li><a href="#">Weekly <div>summary</div></a></li>
+							<li class="days_new">Days <i class="ion-arrow-down-b"></i></li>
+							<li><a href="#">Wed</a></li> 
+							<li><a href="#">Thu</a></li>
+							<li><a href="#">Fri</a></li>
+							<li><a href="#">Sat</a></li>
+							<li><a href="#">Sun</a></li>
+							<li><a href="#">Mon</a></li>
+							<li><a href="#">Tue</a></li>
+						</ul>
+						<div class="video"><!-- <video controls>
+							  <source src="img/MVI_1789.MOV" type="video/mp4">
+							</video> -->
+						</div>
+						<div class="view_all">
+							<a href="#">View all weather video >></a>
+						</div>
+					</div>
+				</div>
+				<div class="view_all_last">
+					<a href="#">View full yearly averages >></a>
+				</div>
+
+				<div class="yearly_monthly_block"></div>
+			</div>
+		</section>	
+
+		<section class="outlook_weather_blog">
+			<div class="container">
+				<ul class="weather_blog_list">
+					<li>Latest Weather Blogs</li>
+					<li>
+						<img src="img/outlook_photo1.png">
+						<div class="text">
+							<span>Ecotourism: best 
+							spots for traveling</span>
+							For the last few years ecotourism has become activity #1 among youth as well as adults. People do not search for fancy villas with hi-tech decorations ... 
+							<div class="green"><a href="#">Read blog</a></div>
+						</div>
+					</li>
+					<li>
+						<img src="img/outlook_photo2.png">
+						<div class="text">
+							<span>New Zealand for traveling with kids</span> New Zealand is not the first destinat ... 
+	             			<div class="green"><a href="#">Read blog</a></div>
+	             		</div>
+					</li>
+					<li>
+						<img src="img/outlook_photo3.png">
+						<div class="text">
+							<span>6 most exotic destinations for couples</span>
+							You have been together for a long time and have already traveled to many ...
+	             			<div class="green"><a href="#">Read blog</a></div>
+	             		</div>
+					</li>
+				</ul>
+
+				<div class="blog_slide">
+					<div class="advertising">
+						<img src="">
+					</div>
+				
+					 <div class="slider">
+					    <div class="block_slide"> 
+						    <img src="img/slide1.png" data-sizes="100vw">
+						    <div class="know_slide">
+						      	Did you know?
+						    </div>
+						    <div class="info_slide">
+						      	The deepest point in the ocean, known as Challenger Deep, would comfortably fit 25 Empaire State Buildings stacked  on top each other
+						    </div>
+					    </div>
+					    <div class="block_slide"> 
+						    <img src="img/slide1.png" data-sizes="100vw">
+						    <div class="know_slide">
+						      	Did you know?
+						    </div>
+						    <div class="info_slide">
+						      	The deepest point in the ocean, known as Challenger Deep, would comfortably fit 25 Empaire State Buildings stacked  on top each other
+						    </div>
+					    </div>
+					    <div class="block_slide"> 
+						    <img src="img/slide1.png" data-sizes="100vw">
+						    <div class="know_slide">
+						      	Did you know?
+						    </div>
+						    <div class="info_slide">
+						      	The deepest point in the ocean, known as Challenger Deep, would comfortably fit 25 Empaire State Buildings stacked  on top each other
+						    </div>
+					    </div>
+					</div>
+
+					<div class="blog_slid_block3">
+						<img src="img/outlook_photo4.png">
+						<div class="text">
+							<span>Ecotourism: best spots for traveling</span> 
+							For the last few years ecotourism has become activity #1 among youth as well as adults. People do not search for fancy villas with hi-tech decorations ... 
+							<div class="green"><a href="#">Read blog</a></div>
+						</div>
+					</div>
+
+					<div class="blog_slid_block3 new">
+						<img src="img/outlook_photo3.png">
+						<div class="text">
+							<span>6 most exotic destinations for couples</span>
+							You have been together for a long time and have already traveled to many ...
+	             			<div class="green"><a href="#">Read blog</a></div>
+	             		</div>
+					</div>
+					<div class="blog_slid_block3 new last">
+						<img src="img/outlook_photo3.png">
+						<div class="text">
+							<span>6 most exotic destinations for couples</span>
+							You have been together for a long time and have already traveled to many ...
+	             			<div class="green"><a href="#">Read blog</a></div>
+	             		</div>
+					</div>
+
+
+				</div>
+			</div>
+		</section>	
+
+
+		<section class="history_weather_outlook">
+			<div class="container">
+				<div class="title">
+					Minsk, Belarus 
+					<div class="title1">Historical weather on 22nd </div>
+					<div class="title1">March over the years</div>
+				</div>
+				<div class="tabl_hist">
+					<div class="middle_w_f">
+						<ul class="mid_list1">
+							<li>
+								<img src="img/svg/calendar.svg">
+								<span class="descr">
+									Date
+								</span>
+								<ul class="rain">
+									<li class="morning">
+										2009
+									</li>
+									<li class="afternoon">
+										2010
+									</li>
+									<li class="evening">
+										2011
+									</li>
+									<li class="night">
+										2012
+									</li>
+									<li class="morning">
+										2013
+									</li>
+									<li class="afternoon">
+										2014
+									</li>
+									<li class="evening">
+										2015
+									</li>
+									<li class="night">
+										2016
+									</li>
+								</ul>
+							</li>
+							<li>
+								<img src="img/svg/rain.svg">
+								<span class="descr">
+									Weather
+								</span>
+								<ul class="weath_possible">
+									<li class="img">
+										<img src="img/icon-light-snow_2.png">
+									</li>
+									<li class="img">
+										<img src="img/icon-light-snow_2.png">
+									</li>
+									<li class="img">
+										<img src="img/icon-light-snow_2.png">
+									</li>
+									<li class="img">
+										<img src="img/icon-light-snow_2.png">
+									</li>
+									<li class="img">
+										<img src="img/icon-light-snow_2.png">
+									</li>
+									<li class="img">
+										<img src="img/icon-light-snow_2.png">
+									</li>
+									<li class="img">
+										<img src="img/icon-light-snow_2.png">
+									</li>
+									<li class="img">
+										<img src="img/icon-light-snow_2.png">
+									</li>
+								</ul>
+							</li>
+							<li>
+								<img src="img/svg/temp.svg">
+								<span class="descr">
+									Max
+								</span>
+								<ul class="tabl_max">
+									<li class="morning">
+										1 ºC
+									</li>
+									<li class="afternoon">
+										1 ºC
+									</li>
+									<li class="evening">
+										1 ºC
+									</li>
+									<li class="night">
+										1 ºC
+									</li>
+									<li class="morning">
+										1 ºC
+									</li>
+									<li class="afternoon">
+										1 ºC
+									</li>
+									<li class="evening">
+										1 ºC
+									</li>
+									<li class="night">
+										1 ºC
+									</li>
+								</ul>
+							</li>
+							<li>
+								<img src="img/svg/min temp.svg">
+								<span class="descr">
+									Min
+								</span>
+								<ul class="tabl_min">
+									<li class="morning">
+										1 ºC
+									</li>
+									<li class="afternoon">
+										1 ºC
+									</li>
+									<li class="evening">
+										1 ºC
+									</li>
+									<li class="night">
+										1 ºC
+									</li>
+									<li class="morning">
+										1 ºC
+									</li>
+									<li class="afternoon">
+										1 ºC
+									</li>
+									<li class="evening">
+										1 ºC
+									</li>
+									<li class="night">
+										1 ºC
+									</li>
+								</ul>
+							</li>
+							<li>
+								<img src="img/svg/wind.svg">
+								<span class="descr">
+									Wind
+								</span>
+								<ul class="wind">
+									<li class="morning">
+										5
+										<div class="mph">mph</div>
+										<div class="nv">NV</div>
+									</li>
+									<li class="afternoon">
+										5
+										<div class="mph">mph</div>
+										<div class="nv">NV</div>
+									</li>
+									<li class="evening">
+										5
+										<div class="mph">mph</div>
+										<div class="nv">NV</div>
+									</li>
+									<li class="night">
+										5
+										<div class="mph">mph</div>
+										<div class="nv">NV</div>
+									</li>
+									<li class="morning">
+										5
+										<div class="mph">mph</div>
+										<div class="nv">NV</div>
+									</li>
+									<li class="afternoon">
+										5
+										<div class="mph">mph</div>
+										<div class="nv">NV</div>
+									</li>
+									<li class="evening">
+										5
+										<div class="mph">mph</div>
+										<div class="nv">NV</div>
+									</li>
+									<li class="night">
+										5
+										<div class="mph">mph</div>
+										<div class="nv">NV</div>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<img src="img/svg/cloud.svg">
+								<span class="descr">
+									Cloud(%)
+								</span>
+								<ul class="cloud">
+									<li class="morning">
+										87%
+									</li>
+									<li class="afternoon">
+										87%
+									</li>
+									<li class="evening">
+										87%
+									</li>
+									<li class="night">
+										87%
+									</li>
+									<li class="morning">
+										87%
+									</li>
+									<li class="afternoon">
+										87%
+									</li>
+									<li class="evening">
+										87%
+									</li>
+									<li class="night">
+										87%
+									</li>
+								</ul>
+							</li>
+							<li>
+								<img src="img/svg/humidity.svg">
+								<span class="descr">
+									Humidity
+								</span>
+								<ul class="humidity">
+									<li class="morning">
+										87%
+									</li>
+									<li class="afternoon">
+										87%
+									</li>
+									<li class="evening">
+										87%
+									</li>
+									<li class="night">
+										87%
+									</li>
+									<li class="morning">
+										87%
+									</li>
+									<li class="afternoon">
+										87%
+									</li>
+									<li class="evening">
+										87%
+									</li>
+									<li class="night">
+										87%
+									</li>
+								</ul>
+							</li>
+							<li>
+								<img src="img/svg/precip.svg">
+								<span class="descr">
+									24 hr Precip
+								</span>
+								<ul class="precip">
+									<li class="morning">
+										0.0
+										<div class="mm">mm</div>
+									</li>
+									<li class="afternoon">
+										0.0
+										<div class="mm">mm</div>
+									</li>
+									<li class="evening">
+										0.0
+										<div class="mm">mm</div>
+									</li>
+									<li class="night">
+										0.0
+										<div class="mm">mm</div>
+									</li>
+									<li class="morning">
+										0.0
+										<div class="mm">mm</div>
+									</li>
+									<li class="afternoon">
+										0.0
+										<div class="mm">mm</div>
+									</li>
+									<li class="evening">
+										0.0
+										<div class="mm">mm</div>
+									</li>
+									<li class="night">
+										0.0
+										<div class="mm">mm</div>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<img src="img/svg/pressure.svg">
+								<span class="descr">
+									Pressure
+								</span>
+								<ul class="pressure">
+									<li class="morning">
+										5
+										<div class="mph">mph</div>
+									</li>
+									<li class="afternoon">
+										5
+										<div class="mph">mph</div>
+									</li>
+									<li class="evening">
+										5
+										<div class="mph">mph</div>
+									</li>
+									<li class="night">
+										5
+										<div class="mph">mph</div>
+									</li>
+									<li class="morning">
+										5
+										<div class="mph">mph</div>
+									</li>
+									<li class="afternoon">
+										5
+										<div class="mph">mph</div>
+									</li>
+									<li class="evening">
+										5
+										<div class="mph">mph</div>
+									</li>
+									<li class="night">
+										5
+										<div class="mph">mph</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<div class="next_4"><i class="ion-chevron-right"></i>N<br>E<br>X<br>T <br>4 <br>y<br>e<br>a<br>r<br>s</div>
+					</div>
+					<div class="view">
+						<a href="#">View hour by hour historical weather >></a>
+					</div>
+					<div class="advertising">
+					</div>
+				</div>
+
+				<div class="right_block_histor">
+						<div class="p_block">
+							<p>Please also visit Minsk, Minsk Historical Weather, 
+							Text Weather and Weather Charts pages. Historical 
+							or past weather forecast page provides historical 
+							weather forecast from 1st July, 2008 till now in 3 
+							hourly interval. Text weather page will allow you to 
+							get a weather text summary for next 14 days and 
+							weather chart page displays weather pattern like 
+							temperature, wind speed, gust, pressure, etc. in 
+							graphical mode for next 14 days. </p>
+
+							<p>We hope you like it.</p>
+
+							<p>If anything is not correct on our website or you have 
+							any feedbacks or queries then please do get in touch. 
+							We are waiting for your valuable feedbacks.</p>
+						</div>
+						<ul class="histor_weath_list">
+							<li>
+								<div class="his_weat_img">
+									<img src="img/svg/folded-map-with-mark.svg">
+								</div>
+								<div class="inform">
+									<div class="title">
+										Holiday 
+										<br>Destinations
+									</div>
+									<div class="city"><a href="#">
+										• Vilnius</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="his_weat_img">
+									<img src="img/svg/building.svg">
+								</div>
+								<div class="inform">
+									<div class="title">
+										Cities/Towns
+									</div>
+									<div class="city"> <a href="#">
+										• Myensk</a>
+									</div>
+									<div class="city"><a href="#">
+										• Myenyesk</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="his_weat_img">
+									<img src="img/svg/stadium.svg">
+								</div>
+								<div class="inform">
+									<div class="title">
+										Football 
+										<br>Stadiums
+									</div>
+									<div class="city"><a href="#">
+										• Dynama Mynsk</a>
+									</div>
+									<div class="city"><a href="#">
+										• Mtz-Ripo Mynsk</a>
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="his_weat_img">
+									<img src="img/svg/aeroplane.svg">
+								</div>
+								<div class="inform">
+									<div class="title">
+										 Airport
+									</div>
+									<div class="city"><a href="#">
+										• Loshitsa / Minsk 
+										<br>International 1</a>
+									</div>
+									<div class="city"><a href="#">
+										• Minsk National 
+										<br>Airport</a>
+									</div>
+								</div>
+							</li>
+						</ul>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="container">
+				<div class="left">
+					<div class="footer_logo">
+						<img src='img/logo_outlook__footer_1920.png'>
+					</div>
+					<div class="list_footer first">
+						<ul>
+							<li><a href="#">HOME</a></li>
+							<li><a href="#">ABOUT</a></li>
+							<li><a href="#">WEBSITE T&C</a></li>
+							<li><a href="#">PRIVACY POLICY</a></li>
+							<li><a href="#">CONTACT US</a></li>
+							<li><a href="#">FAVOURITES</a></li>
+							<li><a href="#">WEATHER BLOG</a></li>
+							<li><a href="#">HOLIDAY GUIDES</a></li>
+							<li><a href="#">SPORTS WEATHER</a></li>
+						</ul>
+					</div>
+					<div class="list_footer second">
+						<div class="list_footer_title">
+							API
+						</div>
+						<ul>
+							<li><a href="#">OVERVIEW</a></li>
+							<li><a href="#">COMPARE</a></li>
+							<li><a href="#">PRICING</a></li>
+							<li><a href="#">LOCAL WEATHER API</a></li>
+							<li><a href="#">PAST WEATHER API</a></li>
+							<li><a href="#">MARINE WEATHER API</a></li>
+							<li><a href="#">SKI WEATHER API</a></li>
+							<li><a href="#">SEARCH API</a></li>
+							<li><a href="#">TIME ZONE API</a></li>
+						</ul>
+					</div>
+					<div class="list_footer third">
+						<div class="list_footer_title">
+							DEVELOPER
+						</div>
+						<ul>
+							<li><a href="#">FREE API TERMS</a></li>
+							<li><a href="#">API T&C</a></li>
+							<li><a href="#">FAQ</a></li>
+							<li><a href="#">DOCUMENTATION</a></li>
+							<li><a href="#">WEATHER ICONS</a></li>
+							<li><a href="#">MULTILINGUAL</a></li>
+							<li><a href="#">API COMMUNITY</a></li>
+							<li><a href="#">LOGIN</a></li>
+							<li><a href="#">SIGN UP</a></li>
+						</ul>
+					</div>
+					<div class="list_footer fourth">
+						<div class="list_footer_title">
+							EXTRAS
+						</div>
+						<ul>
+							<li><a href="#">WEATHER BLOG</a></li>
+							<li><a href="#">HOLIDAY GUIDES</a></li>
+							<li><a href="#">SPORTS WEATHER</a></li>
+							<li><a href="#">STATUS</a></li>
+							<li><a href="#">DISCUSS</a></li>			
+						</ul>
+					</div>
+				</div>
+
+				<div class="right">
+					<ul class="footer_socials_big">
+						<li><a href="#"><img src="img/faceb_green.png"></a></li>
+						<li><a href="#"><img src="img/green_gplus.png"></a></li>
+						<li><a href="#"><img src="img/green_tw.png"></a></li>
+					</ul>
+					<ul class="footer_socials_little">
+						<li><a href="#"><img src="img/green_andr.png"></a></li>
+						<li><img src="img/green_app.png"></a></li>
+						<li><a href="#"><img src="img/green_micros.png"></a></li>
+						<li><a href="#"><img src="img/green_chrome.png"></a></li>
+						<li><a href="#"><img src="img/green_m.png"></a></li>
+						<li><a href="#"><img src="img/green_opera.png"></a></li>
+						<li><a href="#"><img src="img/opera_word.png"></a></li>
+						<li><a href="#"><img src="img/green_iconsoc.png"></a></li>
+						<li><a href="#"><img src="img/green_in.png"></a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+
+		<script type="text/javascript">
+			    $(document).on('ready', function() {
+			    
+			      $(".slider").slick({
+			        lazyLoad: 'ondemand', // ondemand progressive anticipated
+			        infinite: true
+			      });
+			    });
+		 </script>
+
+	</body>
+
+
+</html>
